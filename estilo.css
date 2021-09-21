@@ -1,0 +1,147 @@
+ html body{
+    padding: 0;
+    margin:0 ;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    text-indent: 1.2rem;
+    text-align: justify;  
+}
+.topo{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.topo > h1{
+    font: 2em sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color : #00b757;
+    
+}
+
+.navmenu{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-image: radial-gradient(circle at 50% 94.92%, #ffff32 0, #ffff2e 12.5%, #ffff30 25%, #deff36 37.5%, #b5f23c 50%, #8ee042 62.5%, #69d049 75%, #42c350 87.5%, #00b757 100%);
+    height: 50px;
+    align-items: center;
+    padding: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    
+}
+.navmenu li{
+    list-style-type: none;
+    font-size: 1.4em;
+    
+    
+}
+.navmenu li:hover{
+    opacity: 50%;
+}
+
+.navmenu a{
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: rgb(57, 41, 197);
+    text-decoration: none;
+      
+}
+
+
+
+.conteudo{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+    
+}
+.conteudodiv {
+    align-items: center;
+    
+}
+
+.conteudo img{
+    margin: 50px;
+}
+#up{
+    position: fixed;
+    left: 95%;
+    top: 95%; 
+}
+#back{
+    position: fixed;
+    right: 95%;
+    top: 95%; 
+}
+footer{
+    background-image: radial-gradient(circle at 50% 94.92%, #ffff32 0, #ffff2e 12.5%, #ffff30 25%, #deff36 37.5%, #b5f23c 50%, #8ee042 62.5%, #69d049 75%, #42c350 87.5%, #00b757 100%);
+    height: 300px;
+    margin: 0 auto;
+    bottom: 0;
+    color: blue;
+    box-shadow: -2px -1px 8px rgba(0, 0, 0, 0.555);
+    
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+.footer h5{ 
+    font-size: 1rem;
+    
+}
+.footer li{
+    list-style: none;
+    margin: 5px;
+    padding: 3px;
+}
+.footer li:hover{
+    opacity: 50%;
+}
+
+.footer a{
+    color: blue;
+    padding: 3px;
+}
+@media(max-width:800px){
+    .conteudo{
+        width: 90%;    
+    }
+    .conteudo img{
+        width: 80%;
+    }
+    .navmenu li {
+        font-size: 0.9rem;
+    }
+    .footer li{
+        font-size: 0.8rem;
+    }
+    .topo h1{
+        font-size: 2rem;
+    }
+    #back{
+        right: 90%;
+        top: 93%;
+    }
+    #up{
+        left: 89%;
+        top: 92%; 
+    }
+    
+}
+
+
+
