@@ -1,37 +1,7 @@
-html body{
-    padding: 0;
-    margin:0 ;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1.0rem;
-
-}
-.conteudodiv > h3{
-    font-size: 1.5rem;
-    font-weight: lighter;
-}
-.conteudodiv > ul{
-    font-size: 1.3rem;
-    text-align: justify;
-    
-}
-.conteudodiv > li{
-    list-style: square;
-}
-.conteudodiv img{
-    margin: 5px;
-}
-.conteudodiv figcaption{
-    margin-bottom: 50px;
-    font-size: 1rem ;
-}
-.conteudodiv h4{
-    margin: 0;
-}
-@media(max-width:800px){
-    .navmenu li {
-        font-size: 0.6rem;
+@media(max-width:1150px){
+    .nav li{
+        font-size: 0.8rem;
+        
+        
     }
 }
-
-
